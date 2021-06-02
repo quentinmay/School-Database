@@ -1,0 +1,25 @@
+<html>
+
+<body>
+    <h1>For professors</h1>
+    <form action="getProfessorClasses.php" method="post">
+        SSN: <input type="text" name="ssn"><br>
+        <input type="submit">
+    </form>
+    <form action="countStudentDistinctGrades.php" method="post">
+        Course #: <input type="text" name="course"><br>
+        Section #: <input type="text" name="section"><br>
+        <input type="submit">
+    </form>
+    <h1>For students</h1>
+    <form action="getCourseInfo.php" method="post">
+        Course #: <input type="text" name="course"><br>
+        <input type="submit">
+    </form>
+    <form action="getStudentCourses.php" method="post">
+        Course #: <input type="text" name="cwid"><br>
+        <input type="submit">
+    </form>
+</body>
+
+</html>
